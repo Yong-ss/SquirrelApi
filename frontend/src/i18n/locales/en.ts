@@ -10,100 +10,100 @@ export default {
     login: 'Login',
     getStarted: 'Get Started',
     goToDashboard: 'Go to Dashboard',
-    // User-focused value proposition
-    heroSubtitle: 'One Key, All AI Models',
-    heroDescription: 'No need to manage multiple subscriptions. Access Claude, GPT, Gemini and more with a single API key',
+    // Core Value Prop: From "saving money" to "high-performance infrastructure"
+    heroSubtitle: 'Enterprise AI Model API Unified Dispatch Gateway',
+    heroDescription: 'A high-performance, high-availability API aggregation service providing one-stop solutions for multi-model routing, load balancing, and precise billing.',
     tags: {
-      subscriptionToApi: 'Subscription to API',
-      stickySession: 'Session Persistence',
-      realtimeBilling: 'Pay As You Go'
+      subscriptionToApi: 'Multi-Source Aggregation',
+      stickySession: 'Intelligent Routing',
+      realtimeBilling: 'Usage-Based Billing'
     },
-    // Pain points section
+    // Pain Points: Focused on enterprise integration and management
     painPoints: {
-      title: 'Sound Familiar?',
+      title: 'Facing Challenges in Building AI Applications?',
       items: {
         expensive: {
-          title: 'High Subscription Costs',
-          desc: 'Paying for multiple AI subscriptions that add up every month'
+          title: 'High Management Costs',
+          desc: 'Fragmented API billing across multiple providers makes cost control and optimization difficult.'
         },
         complex: {
-          title: 'Account Chaos',
-          desc: 'Managing scattered accounts and API keys across different platforms'
+          title: 'Integration Complexity',
+          desc: 'Inconsistent protocol standards across models require significant engineering effort for adaptation.'
         },
         unstable: {
-          title: 'Service Interruptions',
-          desc: 'Single accounts hitting rate limits and disrupting your workflow'
+          title: 'Scalability Challenges',
+          desc: 'Single-channel access is prone to rate limits and overloads, threatening business continuity.'
         },
         noControl: {
-          title: 'No Usage Control',
-          desc: "Can't track where your money goes or limit team member usage"
+          title: 'Lack of Observability',
+          desc: 'Difficulty in tracking real-time usage per business line, leading to inefficient resource allocation.'
         }
       }
     },
-    // Solutions section
+    // Solutions section: Technical implementation
     solutions: {
-      title: 'We Solve These Problems',
-      subtitle: 'Three simple steps to stress-free AI access'
+      title: 'Industrial-Grade API Governance',
+      subtitle: 'Integrate once to gain stable, scalable AI inference capabilities'
     },
     features: {
-      unifiedGateway: 'One-Click Access',
-      unifiedGatewayDesc: 'Get a single API key to call all connected AI models. No separate applications needed.',
-      multiAccount: 'Always Reliable',
-      multiAccountDesc: 'Smart routing across multiple upstream accounts with automatic failover. Say goodbye to errors.',
-      balanceQuota: 'Pay What You Use',
-      balanceQuotaDesc: 'Usage-based billing with quota limits. Full visibility into team consumption.'
+      unifiedGateway: 'Standard Protocol Compatibility',
+      unifiedGatewayDesc: 'Native support for major AI SDKs. Switch models seamlessly via a single endpoint with zero integration overhead.',
+      multiAccount: 'High Availability & Load Balancing',
+      multiAccountDesc: 'Built-in smart dispatching and cooldown mechanisms with automated failover, ensuring 99.9% service uptime.',
+      balanceQuota: 'Real-time Observability',
+      balanceQuotaDesc: 'Token-level billing and streaming audits with multi-tenant quota management for precise operational control.'
     },
-    // Comparison section
+    // Comparison section: Professional comparison
     comparison: {
-      title: 'Why Choose Us?',
+      title: 'Service Comparison',
       headers: {
-        feature: 'Comparison',
-        official: 'Official Subscriptions',
-        us: 'Our Platform'
+        feature: 'Dimensions',
+        official: 'Traditional Direct Access',
+        us: 'Unified Dispatch Platform'
       },
       items: {
         pricing: {
-          feature: 'Pricing',
-          official: 'Fixed monthly fee, pay even if unused',
-          us: 'Pay only for what you use'
+          feature: 'Pricing Model',
+          official: 'Fixed monthly fees with low utilization',
+          us: 'Pay-as-you-go with millisecond-level settlement'
         },
         models: {
-          feature: 'Model Selection',
-          official: 'Single provider only',
-          us: 'Switch between models freely'
+          feature: 'Model Scalability',
+          official: 'Vendor lock-in, high switching costs',
+          us: 'Unified routing, seamless model expansion'
         },
         management: {
-          feature: 'Account Management',
-          official: 'Manage each service separately',
-          us: 'Unified key, one dashboard'
+          feature: 'Governance',
+          official: 'Lack of multi-tenant isolation',
+          us: 'Enterprise multi-tenant architecture'
         },
         stability: {
           feature: 'Stability',
-          official: 'Single account rate limits',
-          us: 'Multi-account pool, auto-failover'
+          official: 'High risk of single point of failure',
+          us: 'Distributed node pool with high redundancy'
         },
         control: {
-          feature: 'Usage Control',
-          official: 'Not available',
-          us: 'Quotas & detailed analytics'
+          feature: 'Cost Control',
+          official: 'Difficult to track business consumption',
+          us: 'Precise Token auditing and quota circuit breaking'
         }
       }
     },
     providers: {
-      title: 'Supported AI Models',
-      description: 'One API, Multiple Choices',
-      supported: 'Supported',
-      soon: 'Soon',
-      claude: 'Claude',
-      gemini: 'Gemini',
-      antigravity: 'Antigravity',
-      more: 'More'
+      title: 'Supported Standard Interfaces',
+      description: 'One Gateway, Connecting the AI Ecosystem',
+      supported: 'Production Ready',
+      soon: 'In Beta',
+      claude: 'Claude Series',
+      gemini: 'Gemini Series',
+      antigravity: 'Unified Gateway',
+      more: 'Continuously Expanding'
     },
-    // CTA section
+    // CTA section: Emphasizing infrastructure upgrade
     cta: {
-      title: 'Ready to Get Started?',
-      description: 'Sign up now and get free trial credits to experience seamless AI access',
-      button: 'Sign Up Free'
+      title: 'Ready to Upgrade Your AI Infrastructure?',
+      description: 'Sign up now to get test credits and experience streamlined API management and dispatching.',
+      button: 'Start Integration for Free'
     },
     footer: {
       allRightsReserved: 'All rights reserved.'
@@ -2796,54 +2796,54 @@ export default {
           pleaseEnterSessionToken: 'Please enter Session Token'
         },
         // Gemini specific
-	        gemini: {
-	          title: 'Gemini Account Authorization',
-	          followSteps: 'Follow these steps to authorize your Gemini account:',
-	          step1GenerateUrl: 'Generate the authorization URL',
-	          generateAuthUrl: 'Generate Auth URL',
-	          projectIdLabel: 'Project ID (optional)',
-	          projectIdPlaceholder: 'e.g. my-gcp-project or cloud-ai-companion-xxxxx',
-	          projectIdHint:
-	            'Leave empty to auto-detect after code exchange. If auto-detection fails, fill it in and re-generate the auth URL to try again.',
-	          howToGetProjectId: 'How to get',
-	          step2OpenUrl: 'Open the URL in your browser and complete authorization',
-	          openUrlDesc:
-	            'Open the authorization URL in a new tab, log in to your Google account and authorize.',
-	          step3EnterCode: 'Enter Authorization URL or Code',
-	          authCodeDesc:
-	            'After authorization, copy the callback URL (recommended) or just the code and paste it below.',
-	          authCode: 'Callback URL or Code',
-	          authCodePlaceholder:
-	            'Option 1 (recommended): Paste the callback URL\nOption 2: Paste only the code value',
-	          authCodeHint: 'The system will auto-extract code/state from the URL.',
+        gemini: {
+          title: 'Gemini Account Authorization',
+          followSteps: 'Follow these steps to authorize your Gemini account:',
+          step1GenerateUrl: 'Generate the authorization URL',
+          generateAuthUrl: 'Generate Auth URL',
+          projectIdLabel: 'Project ID (optional)',
+          projectIdPlaceholder: 'e.g. my-gcp-project or cloud-ai-companion-xxxxx',
+          projectIdHint:
+            'Leave empty to auto-detect after code exchange. If auto-detection fails, fill it in and re-generate the auth URL to try again.',
+          howToGetProjectId: 'How to get',
+          step2OpenUrl: 'Open the URL in your browser and complete authorization',
+          openUrlDesc:
+            'Open the authorization URL in a new tab, log in to your Google account and authorize.',
+          step3EnterCode: 'Enter Authorization URL or Code',
+          authCodeDesc:
+            'After authorization, copy the callback URL (recommended) or just the code and paste it below.',
+          authCode: 'Callback URL or Code',
+          authCodePlaceholder:
+            'Option 1 (recommended): Paste the callback URL\nOption 2: Paste only the code value',
+          authCodeHint: 'The system will auto-extract code/state from the URL.',
           redirectUri: 'Redirect URI',
           redirectUriHint:
             'This must be configured in your Google OAuth client and must match exactly.',
           confirmRedirectUri:
             'I have configured this Redirect URI in the Google OAuth client (must match exactly)',
-	          invalidRedirectUri: 'Redirect URI must be a valid http(s) URL',
-	          redirectUriNotConfirmed: 'Please confirm the Redirect URI is configured correctly',
-	          missingRedirectUri: 'Missing redirect URI',
-	          failedToGenerateUrl: 'Failed to generate Gemini auth URL',
-	          missingExchangeParams: 'Missing auth code, session ID, or state',
-	          failedToExchangeCode: 'Failed to exchange Gemini auth code',
-	          missingProjectId: 'GCP Project ID retrieval failed: Your Google account is not linked to an active GCP project. Please activate GCP and bind a credit card in Google Cloud Console, or manually enter the Project ID during authorization.',
-	          modelPassthrough: 'Gemini Model Passthrough',
-	          modelPassthroughDesc:
-	            'All model requests are forwarded directly to the Gemini API without model restrictions or mappings.',
-	          stateWarningTitle: 'Note',
-	          stateWarningDesc: 'Recommended: paste the full callback URL (includes code & state).',
-	          oauthTypeLabel: 'OAuth Type',
+          invalidRedirectUri: 'Redirect URI must be a valid http(s) URL',
+          redirectUriNotConfirmed: 'Please confirm the Redirect URI is configured correctly',
+          missingRedirectUri: 'Missing redirect URI',
+          failedToGenerateUrl: 'Failed to generate Gemini auth URL',
+          missingExchangeParams: 'Missing auth code, session ID, or state',
+          failedToExchangeCode: 'Failed to exchange Gemini auth code',
+          missingProjectId: 'GCP Project ID retrieval failed: Your Google account is not linked to an active GCP project. Please activate GCP and bind a credit card in Google Cloud Console, or manually enter the Project ID during authorization.',
+          modelPassthrough: 'Gemini Model Passthrough',
+          modelPassthroughDesc:
+            'All model requests are forwarded directly to the Gemini API without model restrictions or mappings.',
+          stateWarningTitle: 'Note',
+          stateWarningDesc: 'Recommended: paste the full callback URL (includes code & state).',
+          oauthTypeLabel: 'OAuth Type',
           needsProjectId: 'Built-in OAuth (Code Assist)',
           needsProjectIdDesc: 'Requires GCP project and Project ID',
           noProjectIdNeeded: 'Custom OAuth (AI Studio)',
           noProjectIdNeededDesc: 'Requires admin-configured OAuth client',
-	          aiStudioNotConfiguredShort: 'Not configured',
-	          aiStudioNotConfiguredTip:
-	            'AI Studio OAuth is not configured: set GEMINI_OAUTH_CLIENT_ID / GEMINI_OAUTH_CLIENT_SECRET and add Redirect URI: http://localhost:1455/auth/callback (Consent screen scopes must include https://www.googleapis.com/auth/generative-language.retriever)',
-	          aiStudioNotConfigured:
-	            'AI Studio OAuth is not configured: set GEMINI_OAUTH_CLIENT_ID / GEMINI_OAUTH_CLIENT_SECRET and add Redirect URI: http://localhost:1455/auth/callback'
-	        },
+          aiStudioNotConfiguredShort: 'Not configured',
+          aiStudioNotConfiguredTip:
+            'AI Studio OAuth is not configured: set GEMINI_OAUTH_CLIENT_ID / GEMINI_OAUTH_CLIENT_SECRET and add Redirect URI: http://localhost:1455/auth/callback (Consent screen scopes must include https://www.googleapis.com/auth/generative-language.retriever)',
+          aiStudioNotConfigured:
+            'AI Studio OAuth is not configured: set GEMINI_OAUTH_CLIENT_ID / GEMINI_OAUTH_CLIENT_SECRET and add Redirect URI: http://localhost:1455/auth/callback'
+        },
         // Antigravity specific
         antigravity: {
           title: 'Antigravity Account Authorization',
@@ -2860,20 +2860,20 @@ export default {
           authCode: 'Authorization URL or Code',
           authCodePlaceholder:
             'Option 1: Copy the complete URL\n(http://localhost:xxx/auth/callback?code=...)\nOption 2: Copy only the code parameter value',
-                    authCodeHint: 'You can copy the entire URL or just the code parameter value, the system will auto-detect',
-                    failedToGenerateUrl: 'Failed to generate Antigravity auth URL',
-                    missingExchangeParams: 'Missing code, session ID, or state',
-                    failedToExchangeCode: 'Failed to exchange Antigravity auth code',
-                    // Refresh Token auth
-                    refreshTokenAuth: 'Manual RT',
-                    refreshTokenDesc: 'Enter your existing Antigravity Refresh Token. Supports batch input (one per line). The system will automatically validate and create accounts.',
-                    refreshTokenPlaceholder: 'Paste your Antigravity Refresh Token...\nSupports multiple tokens, one per line',
-                    validating: 'Validating...',
-                    validateAndCreate: 'Validate & Create',
-                    pleaseEnterRefreshToken: 'Please enter Refresh Token',
-                    failedToValidateRT: 'Failed to validate Refresh Token'
-                  }
-                },      // Gemini specific (platform-wide)
+          authCodeHint: 'You can copy the entire URL or just the code parameter value, the system will auto-detect',
+          failedToGenerateUrl: 'Failed to generate Antigravity auth URL',
+          missingExchangeParams: 'Missing code, session ID, or state',
+          failedToExchangeCode: 'Failed to exchange Antigravity auth code',
+          // Refresh Token auth
+          refreshTokenAuth: 'Manual RT',
+          refreshTokenDesc: 'Enter your existing Antigravity Refresh Token. Supports batch input (one per line). The system will automatically validate and create accounts.',
+          refreshTokenPlaceholder: 'Paste your Antigravity Refresh Token...\nSupports multiple tokens, one per line',
+          validating: 'Validating...',
+          validateAndCreate: 'Validate & Create',
+          pleaseEnterRefreshToken: 'Please enter Refresh Token',
+          failedToValidateRT: 'Failed to validate Refresh Token'
+        }
+      },      // Gemini specific (platform-wide)
       gemini: {
         helpButton: 'Help',
         helpDialog: {
@@ -4424,7 +4424,8 @@ export default {
         siteKeyHint: 'Get this from your Cloudflare Dashboard',
         cloudflareDashboard: 'Cloudflare Dashboard',
         secretKeyHint: 'Server-side verification key (keep this secret)',
-        secretKeyConfiguredHint: 'Secret key configured. Leave empty to keep the current value.'      },
+        secretKeyConfiguredHint: 'Secret key configured. Leave empty to keep the current value.'
+      },
       linuxdo: {
         title: 'LinuxDo Connect Login',
         description: 'Configure LinuxDo Connect OAuth for Sub2API end-user login',

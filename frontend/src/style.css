@@ -497,7 +497,7 @@
     @apply rounded-xl shadow-lg;
     @apply border-l-4;
     @apply p-4;
-    @apply animate-slide-in-right;
+    animation: slideInRight 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .toast-success {
@@ -755,4 +755,9 @@
   .safe-bottom {
     padding-bottom: env(safe-area-inset-bottom);
   }
+}
+
+@keyframes slideInRight {
+  0% { opacity: 0; transform: translateX(20px); }
+  100% { opacity: 1; transform: translateX(0); }
 }

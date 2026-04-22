@@ -10,100 +10,100 @@ export default {
     login: '登录',
     getStarted: '立即开始',
     goToDashboard: '进入控制台',
-    // 新增：面向用户的价值主张
-    heroSubtitle: '一个密钥，畅用多个 AI 模型',
-    heroDescription: '无需管理多个订阅账号，一站式接入 Claude、GPT、Gemini 等主流 AI 服务',
+    // 核心价值主张：从“省钱”转向“高性能基础设施”
+    heroSubtitle: '企业级 AI 模型 API 统一调度网关',
+    heroDescription: '高性能、高可用的 API 聚合服务，为企业提供多模型路由、负载均衡与精准计费的一站式解决方案',
     tags: {
-      subscriptionToApi: '订阅转 API',
-      stickySession: '会话保持',
-      realtimeBilling: '按量计费'
+      subscriptionToApi: '多源接口聚合',
+      stickySession: '智能会话路由',
+      realtimeBilling: '按量计费系统'
     },
-    // 用户痛点区块
+    // 用户痛点：转向企业集成和管理痛点
     painPoints: {
-      title: '你是否也遇到这些问题？',
+      title: '您在构建 AI 应用时是否面临这些挑战？',
       items: {
         expensive: {
-          title: '订阅费用高',
-          desc: '每个 AI 服务都要单独订阅，每月支出越来越多'
+          title: '接口管理成本高',
+          desc: '多个模型供应商 API 零散，缺乏统一的账单管理与成本控制手段'
         },
         complex: {
-          title: '多账号难管理',
-          desc: '不同平台的账号、密钥分散各处，管理起来很麻烦'
+          title: '接入适配复杂',
+          desc: '不同模型的协议规范不一，开发团队需要重复编写大量的适配层代码'
         },
         unstable: {
-          title: '服务不稳定',
-          desc: '单一账号容易触发限制，影响正常使用'
+          title: '高并发保障难',
+          desc: '单一调用通道极易触发速率限制（Rate Limit）或过载，导致业务中断'
         },
         noControl: {
-          title: '用量无法控制',
-          desc: '不知道钱花在哪了，也无法限制团队成员的使用'
+          title: '可观测性不足',
+          desc: '无法实时监控每个业务线的调用详情，难以进行精确的 Token 成本分配'
         }
       }
     },
-    // 解决方案区块
+    // 解决方案：强调技术实现
     solutions: {
-      title: '我们帮你解决',
-      subtitle: '简单三步，开始省心使用 AI'
+      title: '工业级 API 治理方案',
+      subtitle: '仅需一次集成，即可获得稳定、可扩展的 AI 推理能力'
     },
     features: {
-      unifiedGateway: '一键接入',
-      unifiedGatewayDesc: '获取一个 API 密钥，即可调用所有已接入的 AI 模型，无需分别申请。',
-      multiAccount: '稳定可靠',
-      multiAccountDesc: '智能调度多个上游账号，自动切换和负载均衡，告别频繁报错。',
-      balanceQuota: '用多少付多少',
-      balanceQuotaDesc: '按实际使用量计费，支持设置配额上限，团队用量一目了然。'
+      unifiedGateway: '标准协议兼容',
+      unifiedGatewayDesc: '原生兼容主流 AI 模型 SDK 格式，通过单一端点实现全模型平滑切换，实现业务零成本迁移。',
+      multiAccount: '高可用负载均衡',
+      multiAccountDesc: '内置智能调度算法与过载冷却机制（Cooldown），自动实现节点探活与故障转移，确保业务 99.9% 可用性。',
+      balanceQuota: '精准可观测面板',
+      balanceQuotaDesc: '基于 Token 级别的实时计费与流式审计，支持多租户配额管理，让每一分成本都清晰可见。'
     },
-    // 优势对比
+    // 优势对比：专业化话术
     comparison: {
-      title: '为什么选择我们？',
+      title: '服务方案对比',
       headers: {
-        feature: '对比项',
-        official: '官方订阅',
-        us: '本平台'
+        feature: '对比维度',
+        official: '传统单一接入',
+        us: '统一调度平台'
       },
       items: {
         pricing: {
-          feature: '付费方式',
-          official: '固定月费，用不完也付',
-          us: '按量付费，用多少付多少'
+          feature: '计费模式',
+          official: '固定月费，资源利用率低',
+          us: '按量付费 (Pay-as-you-go)，毫秒级结算'
         },
         models: {
-          feature: '模型选择',
-          official: '单一服务商',
-          us: '多模型随意切换'
+          feature: '模型扩展',
+          official: '供应商锁定，切换成本高',
+          us: '一站式路由，无缝扩展新模型'
         },
         management: {
-          feature: '账号管理',
-          official: '每个服务单独管理',
-          us: '统一密钥，一站管理'
+          feature: '权限治理',
+          official: '缺乏多租户隔离与管控',
+          us: '企业级多租户架构，权限细化'
         },
         stability: {
-          feature: '服务稳定性',
-          official: '单账号易触发限制',
-          us: '多账号池，自动切换'
+          feature: '稳定性',
+          official: '单点故障风险高',
+          us: '分布式节点池，高可用冗余'
         },
         control: {
-          feature: '用量控制',
-          official: '无法限制',
-          us: '可设配额、查明细'
+          feature: '成本控制',
+          official: '难以追踪具体业务消耗',
+          us: '精细化 Token 审计与配额熔断'
         }
       }
     },
     providers: {
-      title: '已支持的 AI 模型',
-      description: '一个 API，多种选择',
-      supported: '已支持',
-      soon: '即将推出',
-      claude: 'Claude',
-      gemini: 'Gemini',
-      antigravity: 'Antigravity',
-      more: '更多'
+      title: '支持的标准化接口',
+      description: '一个网关，连接主流 AI 生态',
+      supported: '生产环境可用',
+      soon: '灰度测试中',
+      claude: 'Claude 系列',
+      gemini: 'Gemini 系列',
+      antigravity: '统一网关',
+      more: '持续扩展中'
     },
-    // CTA 区块
+    // 定价区块：强调透明与正规
     cta: {
-      title: '准备好开始了吗？',
-      description: '注册即可获得免费试用额度，体验一站式 AI 服务',
-      button: '免费注册'
+      title: '准备好升级您的 AI 基础设施了吗？',
+      description: '注册即可获取测试配额，体验极简的 API 管理与调度流程',
+      button: '开始免费集成'
     },
     footer: {
       allRightsReserved: '保留所有权利。'
