@@ -164,7 +164,7 @@
                   </div>
                   <div class="code-line line-3">
                     <span class="code-success">200 OK</span>
-                    <span class="code-response">{ "content": "Hello!" }</span>
+                    <span class="code-response">{ "content": "Hello test!" }</span>
                   </div>
                   <div class="code-line line-4">
                     <span class="code-prompt">$</span>
