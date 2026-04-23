@@ -3820,7 +3820,7 @@
                       v-model="form.payment_product_name_suffix"
                       type="text"
                       class="input"
-                      placeholder="CNY"
+                      placeholder="MYR"
                     />
                   </div>
                   <div>
