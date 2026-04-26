@@ -18,7 +18,7 @@ const VISIBLE_METHOD_ALIASES = {
 } as const
 
 export type VisiblePaymentMethod = 'alipay' | 'wxpay' | 'stripe'
-export type StripeVisibleMethod = 'alipay' | 'wechat_pay' | ''
+export type StripeVisibleMethod = 'alipay' | 'wechat_pay'
 export type PaymentLaunchKind =
   | 'qr_waiting'
   | 'redirect_waiting'
@@ -145,7 +145,12 @@ export function decidePaymentLaunch(
   }, context.now)
 
   if (baseState.clientSecret) {
-    const stripeMethod: StripeVisibleMethod = visibleMethod === 'wxpay' ? 'wechat_pay' : (visibleMethod === 'stripe' ? '' : 'alipay')
+    // visibleMethod === 'stripe' means the user clicked the dedicated Stripe button
+    // and should land on the full Payment Element to choose a sub-method themselves.
+    const isStripeButton = visibleMethod === 'stripe'
+    const stripeMethod: StripeVisibleMethod | undefined = isStripeButton
+      ? undefined
+      : visibleMethod === 'wxpay' ? 'wechat_pay' : 'alipay'
     const kind: PaymentLaunchKind = stripeMethod === 'alipay' && !context.isMobile
       ? 'stripe_popup'
       : 'stripe_route'
